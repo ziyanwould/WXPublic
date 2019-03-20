@@ -1,0 +1,42 @@
+{
+  "name": "koa-easywechat",
+  "version": "0.1.5",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "is": "^3.2.1",
+    "koa-json": "^2.0.2",
+    "raw-body": "^2.3.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "koa": "^2.6.2",
+    "mocha": "^5.2.0"
+  },
+  "description": "使用koa开发微信公众号",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:51ding/koa-easywechat.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "wechat",
+    "middleware",
+    "微信",
+    "公众号",
+    "easywechat"
+  ],
+  "author": "51ding <houhanbin121456@163.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.6"
+  }
+}
